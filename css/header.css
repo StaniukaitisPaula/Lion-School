@@ -1,0 +1,21 @@
+.logo{
+    padding-left: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.logo p{
+    max-width: 26px;
+}
+.sair{
+    padding-right: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    font-size: 2rem;
+    font-weight: 500;
+}

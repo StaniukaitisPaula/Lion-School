@@ -1,0 +1,53 @@
+@media (max-width:640px){
+    header{
+        height: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+        gap: 50px;
+    }
+    .filter_leg{
+        align-items: center;
+    }
+   .legenda{
+    flex-direction: column;
+   }
+    main h1{
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 100px;
+    }
+}
+@media(max-width: 960px){
+    header{
+        height: 100%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+        gap: 50px;
+    }
+    .person{
+        height: 300px;
+    }
+    main h1{
+        font-size: 2rem;
+        max-width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        gap: 100px;
+    }
+}

@@ -1,0 +1,47 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+main p{
+    color: var(--primary-color);
+    font-size: 3rem;
+    font-weight: 500;
+}
+.cards_aluno{
+    height: 300px;
+    width: 200px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+}
+.foto_aluno{
+    display: flex;
+    height: 200px;
+}
+.nome_aluno{
+    color: #fff;
+    align-self: center;
+    justify-self: center;
+}
+.container_aluno{
+    display: flex;
+    gap: 4vw;
+    flex-wrap: wrap;
+    padding: 10vh;
+    max-width: 80vw;
+    align-items: center;
+    justify-content: center;
+}
+.blue{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.596);
+    background-color: var(--primary-color);
+}
+
+.yellow{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.749);
+    background-color: var(--secondary-color);
+}

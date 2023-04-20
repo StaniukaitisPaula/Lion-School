@@ -1,0 +1,42 @@
+.choice{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+main h1{
+    font-size: 4rem;
+    font-weight: 300;
+    max-width: 27vw;
+}
+.person{
+    height: 450px;
+}
+
+.icon{
+    height: 96px;
+}
+
+.card_button{
+    color: #fff;
+    height: 200px;
+    width: 400px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem ;
+    font-weight: 400;
+    max-height: fit-content;
+    box-shadow:  12px 12px 4px rgba(51, 71, 176, 0.5);
+}
+.container_buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

@@ -1,0 +1,30 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact{
+    display: flex;
+    gap: 24px;
+    font-size: 1.3rem;
+    font-weight: 300;
+    align-items: center;
+}
+footer p{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.social_icons{
+    display: flex;
+    gap: 32px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    font-size: 2rem;
+    height: 60px;
+    width: 60px;
+}
